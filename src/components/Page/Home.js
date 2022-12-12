@@ -1,4 +1,3 @@
-import Card from "../UI/Card";
 import Meals from "../Meal/Meals";
 
 const Home = (props) => {
@@ -15,9 +14,9 @@ const Home = (props) => {
       </div>
 
       <div className="relative">
-        <Card className="absolute inset-0 overflow-auto">
+        <div className="absolute inset-0 overflow-auto">
           <Meals />
-        </Card>
+        </div>
       </div>
     </section>
   );
